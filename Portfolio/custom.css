@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Playfair+Display&display=swap');
+body{
+    font-family:  'Lato', sans-serif;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Playfair Display', Serif;
+    font-weight: 300;
+}
+h6{
+    font-weight: bolder;
+}
+.navbar-dark .navbar-nav .nav-link:link ,.navbar-dark .navbar-nav .nav-link:visited{
+    color:#000000 /* rgb(183 31 16 );*/
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color:#00c6ff /*#0069d9*/;!important;
+}
+.navbar-toggler {
+   background-color: #00c6ff;
+    border: 1px solid #00c6ff;
+}
+header{
+    background: url("data:image/svg+xml,%3Csvg width='40' height='12' viewBox='0 0 40 12' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 6.172L6.172 0h5.656L0 11.828V6.172zm40 5.656L28.172 0h5.656L40 6.172v5.656zM6.172 12l12-12h3.656l12 12h-5.656L20 3.828 11.828 12H6.172zm12 0L20 10.172 21.828 12h-3.656z' fill='%23000000' fill-opacity='0.01' fill-rule='evenodd'/%3E%3C/svg%3E") #fff;;
+}
+body{
+    background: url("data:image/svg+xml,%3Csvg width='40' height='12' viewBox='0 0 40 12' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 6.172L6.172 0h5.656L0 11.828V6.172zm40 5.656L28.172 0h5.656L40 6.172v5.656zM6.172 12l12-12h3.656l12 12h-5.656L20 3.828 11.828 12H6.172zm12 0L20 10.172 21.828 12h-3.656z' fill='%23000000' fill-opacity='0.01' fill-rule='evenodd'/%3E%3C/svg%3E") #fff;;
+}
+
+.form-control{
+    border:1px solid #00c6ff;
+}
+
+.skills{
+    margin-bottom: 1.45rem;
+    color: rgb(33, 33, 33);
+    padding: 8rem 1rem 7rem;
+    clip-path: polygon(0% 14%, 100% 0px, 100% 84%, 0px 100%);
+    background: rgb(249, 249, 249);
+    text-align: center;
+}
